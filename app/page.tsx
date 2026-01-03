@@ -1,7 +1,14 @@
 import Image from "next/image";
+import Hero from "./componants/navbar/Hero";
+import CustomerService from "./componants/navbar/ContactSection";
+import ThreeSteps from "./componants/navbar/ThreeStages";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black"></div>
+    <div>
+      <Hero />
+      <CustomerService/>
+      <ThreeSteps/>
+      </div>
   );
 }
